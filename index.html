@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Brief Campaign Glofy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Glofy x Creator Campaign</h1>
+    <p>Silakan isi data untuk preview campaign & upload referensi endorse:</p>
+
+    <form id="glofyForm">
+      <label>Nama Lengkap:</label>
+      <input type="text" name="nama" required>
+
+      <label>No. HP:</label>
+      <input type="text" name="hp" required>
+
+      <label>Tanggal Hari Ini:</label>
+      <input type="text" id="tanggal" disabled>
+
+      <label>Upload Gambar Referensi:</label>
+      <input type="file" accept="image/*" id="upload" capture="environment" required>
+
+      <button type="submit">Kirim Brief</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
